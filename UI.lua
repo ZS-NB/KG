@@ -321,9 +321,6 @@ function library.new(library, name, theme)
 		TabL.SortOrder = Enum.SortOrder.LayoutOrder
 		TabL.Padding = UDim.new(0, 4)
 		TabBtn.MouseButton1Click:Connect(function()
-			spawn(function()
-				Ripple(TabBtn)
-			end)
 			switchTab({ TabIco, Tab })
 		end)
 		if library.currentTab == nil then
@@ -439,9 +436,6 @@ function library.new(library, name, theme)
 				BtnC.Name = "BtnC"
 				BtnC.Parent = Btn
 				Btn.MouseButton1Click:Connect(function()
-					spawn(function()
-						Ripple(Btn)
-					end)
 					spawn(callback)
 				end)
 			end
