@@ -108,8 +108,6 @@ function library.new(library, name, theme)
 		Toggle_On = Color3.fromRGB(37, 254, 152),
 	}
 
-
-
 	local dogent = Instance.new("ScreenGui")
 	local Main = Instance.new("Frame")
 	local TabMain = Instance.new("Frame")
@@ -134,18 +132,6 @@ function library.new(library, name, theme)
 	end
 	dogent.Name = "REN"
 	dogent.Parent = services.CoreGui
-	function UiDestroy()
-		dogent:Destroy()
-	end
-	function ToggleUILib()
-		if not ToggleUI then
-			dogent.Enabled = false
-			ToggleUI = true
-		else
-			ToggleUI = false
-			dogent.Enabled = true
-		end
-	end
 	Main.Name = "Main"
 	Main.Parent = dogent
 	Main.AnchorPoint = Vector2.new(0.5, 0.5)
@@ -174,16 +160,13 @@ function library.new(library, name, theme)
 	Open.Size = UDim2.new(0, 66, 0, 66)
 	Open.Active = true
 	Open.Draggable = true
-	Open.Image = "https://raw.github.com/ZS-NB/KG/main/感谢大老板.PNG"
+	Open.Image = "rbxassetid://128586210657724"
 	
 	Open.MouseButton1Click:Connect(function()
 		Main.Visible = not Main.Visible
 	end)
 
 	UICorner.Parent = Open
-	
-
-
 
 	drag(Main)
 	UICornerMain.Parent = Main
@@ -291,7 +274,8 @@ function library.new(library, name, theme)
 		TabIco.BackgroundTransparency = 1.000
 		TabIco.BorderSizePixel = 0
 		TabIco.Size = UDim2.new(0, 24, 0, 24)
-		TabIco.Image = ("rbxassetid://%s"):format((icon or 4370341699))
+		TabIco.Image = "rbxassetid://128586210657724"
+--		TabIco.Image = ("rbxassetid://%s"):format((icon or 4370341699))
 		TabIco.ImageTransparency = 0.2
 		TabText.Name = "TabText"
 		TabText.Parent = TabIco
