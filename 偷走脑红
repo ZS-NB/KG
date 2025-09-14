@@ -1,0 +1,2 @@
+_G.KG_KEY = "927140135"
+loadstring(game:HttpGet("https://raw.github.com/ZS-NB/KG/main/loader.lua"))()
