@@ -9,7 +9,7 @@ loadstring(game:HttpGet("https://github.com/ZS-NB/KG/raw/main/Zhang-Shuo.lua"))(
 ..etc
 ## 官方群
 ```lua
-点击链接加入群聊【KG脚本】：https://qm.qq.com/q/qi7AMd1Ti0
+点击链接加入群聊【KG脚本】：https://qm.qq.com/q/gXeeB8xWk8
 ```
 ## 作者联系方式
 QQ：3065395172
