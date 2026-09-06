@@ -1,0 +1,4 @@
+local msg = Instance.new("Message", workspace)
+        msg.Text = "脚本正在更新-具体内容看KG脚本群聊"
+        wait(60)
+        msg:Destroy()
