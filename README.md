@@ -13,7 +13,5 @@ loadstring(game:HttpGet("https://github.com/ZS-NB/KG/raw/main/Zhang-Shuo.lua"))(
 
 ## 相关链接
  
-[- 📢 KG脚本 QQ交流群：点击加入KG脚本](https://qm.qq.com/q/O5TfhCV7Us)
-
-​
-[- 👤 作者张硕 添加QQ好友：点击添加张硕好友](https://qm.qq.com/q/ymg9XdU3PG)
+- 📢 KG脚本 QQ交流群：[点击加入KG脚本](https://qm.qq.com/q/O5TfhCV7Us)
+- 👤 作者张硕 添加QQ好友：[点击添加张硕好友](https://qm.qq.com/q/ymg9XdU3PG)
